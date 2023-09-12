@@ -96,22 +96,25 @@ Overall, I'm satisfied with the current state of the model. If SyriaTel records 
 ## Repository Structure
 
 
-├── Data
-│   └── churndata.csv
-├── Images
-│   ├── churn_bystate.png
-│   ├── churn_countplot.png
-│   ├── churn_heatmap.png
-│   ├── churn_staterates.png
-│   ├── conf_int.png
-│   ├── conf_percent.png
-│   ├── custsvc_churn.png
-│   ├── daymin_hist.png
-│   ├── first_conf_int.png
-│   ├── first_conf_percent.png
-│   ├── ftr_imp_all.png
-│   ├── syriatel.jpeg
-│   ├── syriatel.png
-│   └── top5_ftrs.png
-├── README.md
-└── model_notebook.ipynb
+├── Data  
+│   └── churndata.csv  
+├── Images  
+│   ├── churn_bystate.png  
+│   ├── churn_countplot.png  
+│   ├── churn_heatmap.png   
+│   ├── churn_staterates.png  
+│   ├── conf_int.png  
+│   ├── conf_percent.png  
+│   ├── custsvc_churn.png  
+│   ├── daymin_hist.png  
+│   ├── first_conf_int.png  
+│   ├── first_conf_percent.png  
+│   ├── ftr_imp_all.png  
+│   ├── syriatel.jpeg  
+│   ├── syriatel.png  
+│   └── top5_ftrs.png  
+├── Presentation.pdf  
+├── Presentation.pptx  
+├── README.md  
+├── model_notebook.ipynb  
+└── model_notebook_pdf.pdf
