@@ -113,8 +113,6 @@ Overall, I'm satisfied with the current state of the model. If SyriaTel records 
 │   ├── syriatel.jpeg  
 │   ├── syriatel.png  
 │   └── top5_ftrs.png  
-├── Presentation.pdf  
-├── Presentation.pptx  
-├── README.md  
-├── model_notebook.ipynb  
-└── model_notebook_pdf.pdf
+├── Presentation.pdf   
+├── README.md   
+└── model_notebook.ipynb
