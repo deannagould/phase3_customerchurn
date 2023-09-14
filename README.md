@@ -1,6 +1,6 @@
 # SyriaTel Customer Churn
 
-![SyriaTel](/Users/deannagould/Documents/phase3_project/phase3_customerchurn/Images/syriatel.png)
+![SyriaTel](Images/syriatel.png)
 
 https://www.linkedin.com/company/syriatel/
 
@@ -39,11 +39,11 @@ There are 3,333 rows of data in the dataset, with 2850 customers that didn't chu
 
 **Overall Churn**
 
-![Churn Countplot](/Users/deannagould/Documents/phase3_project/phase3_customerchurn/Images/churn_countplot.png)
+![Churn Countplot](Images/churn_countplot.png)
 
 **Churn by State**
 
-![Churn by State](/Users/deannagould/Documents/phase3_project/phase3_customerchurn/Images/churn_bystate.png)
+![Churn by State](Images/churn_bystate.png)
 
 ## Strategy
 
@@ -52,7 +52,7 @@ I will cover several different types of models including Logistic Regression, Ra
 Below is the confustion matrix from the baseline logistic regression model.
 **Whole Number Confusion Matrix**
 
-![First Confusion Matrix Whole Number](/Users/deannagould/Documents/phase3_project/phase3_customerchurn/Images/first_conf_int.png)
+![First Confusion Matrix Whole Number](Images/first_conf_int.png)
 
 **Confusion Matrix Percentages**
 
@@ -65,21 +65,21 @@ The best performing model was XGBoost with GridSearchCV. The average F1 score wa
 
 **Final Confusion Matrix**
 
-![Final Confusion Matrix](/Users/deannagould/Documents/phase3_project/phase3_customerchurn/Images/conf_int.png)
+![Final Confusion Matrix](Images/conf_int.png)
 
 **Feature Importances**
 
-![All Feature Importances](/Users/deannagould/Documents/phase3_project/phase3_customerchurn/Images/ftr_imp_all.png)
+![All Feature Importances](Images/ftr_imp_all.png)
 
 Above are the feature importances based on the final model, which may be difficult to see, so the top five are below.
 
 **Top 5 Features**
 
-![Top Feature Importances](/Users/deannagould/Documents/phase3_project/phase3_customerchurn/Images/top5_ftrs.png)
+![Top Feature Importances](Images/top5_ftrs.png)
 
 **Churn by Customer Service Calls**
 
-![Customer Service Churn](/Users/deannagould/Documents/phase3_project/phase3_customerchurn/Images/custsvc_churn.png)
+![Customer Service Churn](Images/custsvc_churn.png)
 
 As you can see, the international plan is the biggest indicator that a customer will churn, followed by the amount of customer service calls that were made. In addition, the state of Florida as well as DC have high importance for churn rates. SyriaTel does charge for a voicemail plan, but I am not sure if they charge an additional rate for the number of voicemail messages left.  
 
